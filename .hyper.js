@@ -8,7 +8,7 @@ module.exports = {
         // or `'canary'` for less polished but more frequent updates
         updateChannel: 'stable',
         // default font size in pixels for all tabs
-        fontSize: 12,
+        fontSize: 13,
         // font family with optional fallbacks
         fontFamily: 'MesloLGS NF',
         // default font weight: 'normal' or 'bold'
@@ -132,7 +132,7 @@ module.exports = {
         preserveCWD: true,
         // for advanced config flags please refer to https://hyper.is/#cfg
         summon: {
-          hotkey: 'Alt+Opt+H',
+            hotkey: 'Alt+Opt+H',
         },
         hypernpm: {
             // wil run `npm run lint`
@@ -160,12 +160,11 @@ module.exports = {
     // `~/.hyper_plugins/local/` and include it here
     // to load it and avoid it being `npm install`ed
     localPlugins: [
-  "fig-hyper-integration"
-],
+        "fig-hyper-integration"
+    ],
     keymaps: {
-    // Example
-    // 'window:devtools': 'cmd+alt+o',
+        // Example
+        // 'window:devtools': 'cmd+alt+o',
     },
 };
 //# sourceMappingURL=config-default.js.map
-

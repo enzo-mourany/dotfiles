@@ -42,7 +42,7 @@ brew install --cask iterm2
 
 To get this render
 
-<img src="./images/oh-my-zsh.png"/>
+<img src="./images/oh-my-zsh.png" width="60%"/>
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -94,7 +94,7 @@ After configuring oh-my-zsh, VSCode's terminal does not support powerlevel10k ic
 
 Go to `Settings` and search `terminal font` and change the value to `MesloLGS NF`
 
-<img src=".images/../images/vscode-terminal-font.png" />
+<img src=".images/../images/vscode-terminal-font.png" width="60%"/>
 
 
 
@@ -130,7 +130,7 @@ vim ~/.hyper.js
 
 Use this parameter
 
-<img src="./images/hyper-font-family.png"/>
+<img src="./images/hyper-font-family.png" width="60%"/>
 
 <br/>
 
@@ -142,7 +142,7 @@ hyper i hyper-night-owl
 
 ## Install Fig (brew)
 
-<img src="./images/fig.png"/>
+<img src="./images/fig.png" width="60%"/>
 
 ```sh
 brew install --cask fig
@@ -156,7 +156,7 @@ Restart Hyper
 
 ## Set low opacity
 
-<img src="./images/hyper-low-opacity.png"/>
+<img src="./images/hyper-low-opacity.png" width="80%"/>
 
 ```sh
 hyper i hyper-opacity
@@ -164,7 +164,7 @@ hyper i hyper-opacity
 
 Change opacity in .hyper.js
 
-<img src="./images/opacity.png"/>
+<img src="./images/opacity.png" width="60%"/>
 
 <br/>
 

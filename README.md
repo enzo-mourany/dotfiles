@@ -4,9 +4,37 @@
 
 [Hyper](#hyper)
 
-[Fish](#fish)
+[Shell](#shell-setup)
 
 <br />
+
+# Shell setup
+
+## Install brew (macos)
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+## Install fish
+
+```
+brew install fish
+```
+
+## Install fisher
+
+```
+brew install fisher
+```
+
+## Install iTerm
+
+If you are using basic terminal on your mac you should install iTerm which is better built and looks better
+
+```
+brew install --cask iterm2
+```
 
 # Hyper
 
@@ -83,10 +111,6 @@ Change opacity in .hyper.js
 Go to this [link](https://github.com/bnb/awesome-hyper.git) to see and install some plugins
 
 <br />
-
-# Fish
-
-
 
 ## Author
 

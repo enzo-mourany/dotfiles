@@ -2,11 +2,13 @@
 <p>
 </p>
 
-[Hyper](#hyper)
-
 [Shell](#shell-setup)
 
 [VSCode Terminal](#vscode-terminal)
+
+[Hyper](#hyper)
+
+[Nvim](#nvim)
 
 <br />
 
@@ -173,6 +175,16 @@ Change opacity in .hyper.js
 Go to this [link](https://github.com/bnb/awesome-hyper.git) to see and install some plugins
 
 <br />
+
+# NeoVim
+
+## Installation
+
+```
+brew install neovim
+```
+
+# 
 
 ## Author
 

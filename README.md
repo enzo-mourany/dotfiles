@@ -12,19 +12,19 @@
 
 ## Install brew (macos)
 
-```
+```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 ## Install fish
 
-```
+```sh
 brew install fish
 ```
 
 ## Install fisher
 
-```
+```sh
 brew install fisher
 ```
 
@@ -32,8 +32,42 @@ brew install fisher
 
 If you are using basic terminal on your mac you should install iTerm which is better built and looks better
 
-```
+```sh
 brew install --cask iterm2
+```
+
+## Install oh-my-zsh
+
+To get this render
+
+<img src="./images/oh-my-zsh.png"/>
+
+```sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+## Install powerlevel10k
+
+Clone this repository to use powerlevel10k and get a better render. If git is not already installed, go to this [page](https://github.com/git-guides/install-git)
+
+```sh
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+```
+
+Now open `~/.zshrc` and set `ZSH_THEME="powerlevel10k/`powerlevel10k"`
+
+Quit iTerm and relaunch it
+
+A special page will appear and you will have to select proposals to configure powerlevel10k
+
+More info on [powerlevel10k](https://github.com/romkatv/powerlevel10k) github page
+
+Finally quit et relaunch iTerm again and see the result
+
+If you want to edit the configuration :
+
+```sh
+p10k configure
 ```
 
 # Hyper
@@ -56,13 +90,13 @@ sudo ln -s &#34;/Applications/Hyper.app/Contents/Resources/bin/hyper&#34; /usr/l
 
 ## Change font family
 
-```
+```sh
 code ~/.hyper.js
 ```
 
 or
 
-```
+```sh
 vim ~/.hyper.js
 ```
 
@@ -74,7 +108,7 @@ Use this parameter
 
 ## Night Owl Theme
 
-```
+```sh
 hyper i hyper-night-owl
 ```
 
@@ -96,7 +130,7 @@ Restart Hyper
 
 <img src="./images/hyper-low-opacity.png"/>
 
-```
+```sh
 hyper i hyper-opacity
 ```
 

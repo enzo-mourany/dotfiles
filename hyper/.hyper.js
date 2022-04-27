@@ -4,6 +4,32 @@
 // See https://hyper.is#cfg for all currently supported options.
 module.exports = {
     config: {
+        // open hyper from anywhere
+        openDevToolsKey: 'Command+Control+Alt+O',
+        // macos custom touchbar
+        hyperCustomTouchbar: [
+            // if you just need a single button then don't add options array
+            { label: 'clear', command: 'clear', backgroundColor: '#FD6F6B' },
+            { label: 'man', command: 'man ', prompt: true },
+            {
+                label: 'git',
+                options: [
+                    { label: 'diff', command: 'git diff' },
+                    { label: 'status', command: 'git status' },
+                    { label: 'log', command: 'git log' },
+                    { label: 'add .', command: 'git add .', icon: '/tmp/icons8-add-file-44.png', iconPosition: 'right' },
+                    { label: 'clone', command: 'git clone ', prompt: true },
+                ]
+            },
+            {
+                label: 'vim',
+                options: [
+                    { label: 'quit', command: ':q!', esc: true },
+                    { label: 'save & quit', command: ':x', esc: true },
+                    { label: 'visual', command: ':v', esc: true, backgroundColor: '#FD7CFC' },
+                ]
+            },
+        ],
         // choose either `'stable'` for receiving highly polished,
         // or `'canary'` for less polished but more frequent updates
         updateChannel: 'stable',
@@ -139,7 +165,7 @@ module.exports = {
             1: "lint",
             // will run `npm test` since it's a native npm command
             5: "test"
-        }
+        },
     },
     // a list of plugins to fetch and install from npm
     // format: [@org/]project[#version]
@@ -154,7 +180,11 @@ module.exports = {
         "hyperterm-summon",
         "hyperterm-paste",
         "hyper-hide-scroll",
-        "hypernpm"
+        "hypernpm",
+        "hyper-manager",
+        "hyper-dnd-tabs",
+        "hyperterm-open-devtools",
+        "hyper-custom-touchbar"
     ],
     // in development, you can create a directory under
     // `~/.hyper_plugins/local/` and include it here

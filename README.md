@@ -70,6 +70,22 @@ If you want to edit the configuration :
 p10k configure
 ```
 
+You can also edit the code on `~/.p10k.zsh`
+
+## Install Plugins
+
+### Syntax Highlighting
+
+```sh
+brew install zsh-syntax-highlighting
+```
+
+Enable the syntax highlighting :
+
+```sh
+source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+```
+
 # Hyper
 
 <img src="./images/hyper.png"/>

@@ -6,6 +6,8 @@
 
 [Shell](#shell-setup)
 
+[VSCode Terminal](#vscode-terminal)
+
 <br />
 
 # Shell setup
@@ -85,6 +87,16 @@ Enable the syntax highlighting :
 ```sh
 source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
+
+# VSCode Terminal
+
+After configuring oh-my-zsh, VSCode's terminal does not support powerlevel10k icons. So you have to go to vscode settings
+
+Go to `Settings` and search `terminal font` and change the value to `MesloLGS NF`
+
+<img src=".images/../images/vscode-terminal-font.png" />
+
+
 
 # Hyper
 

@@ -16,6 +16,8 @@
 
 ## Install brew (macos)
 
+[Brew](https://brew.sh/index_fr) is a package manager for macos
+
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```

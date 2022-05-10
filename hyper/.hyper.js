@@ -9,8 +9,18 @@ module.exports = {
         // macos custom touchbar
         hyperCustomTouchbar: [
             // if you just need a single button then don't add options array
-            { label: 'clear', command: 'clear', backgroundColor: '#FD6F6B' },
-            { label: 'man', command: 'man ', prompt: true },
+            { label: 'clear', command: 'clear', backgroundColor: '#B53F46' },
+            {
+                label: 'npm',
+                options: [
+                    { label: 'start', command: 'npm start' },
+                    { label: 'install', command: 'npm install' },
+                    { label: 'build', command: 'npm run build' },
+                    { label: 'dev', command: 'npm run dev' },
+                    { label: 'list', command: 'npm list -g --depth=0' },
+                    { label: 'update', command: 'npm install -g npm@latest' },
+                ]
+            },
             {
                 label: 'git',
                 options: [
@@ -27,7 +37,7 @@ module.exports = {
                     { label: 'quit', command: ':q!', esc: true },
                     { label: 'save & quit', command: ':x', esc: true },
                     { label: 'visual', command: ':v', esc: true, backgroundColor: '#FD7CFC' },
-                ]
+                ],
             },
         ],
         // choose either `'stable'` for receiving highly polished,
@@ -46,7 +56,7 @@ module.exports = {
         // letter spacing as a relative unit
         letterSpacing: 0,
         // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
-        cursorColor: 'rgba(248,28,229,1)',
+        cursorColor: '#FFFFFF',
         // terminal text color under BLOCK cursor
         cursorAccentColor: '#000',
         // `'BEAM'` for |, `'UNDERLINE'` for _, `'BLOCK'` for █

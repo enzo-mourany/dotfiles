@@ -190,7 +190,7 @@ To config Neovim you have to go to `~/.config/nvim` on MacOS
 
 ## LunarVim
 
-<img src="./images/lunarVim.png" width="60%"/>
+<img src="./images/lunarVim.png" width="70%"/>
 
 <br />
 
@@ -222,12 +222,12 @@ Edit `.zshrc` and add `PATH=$PATH:~/.local/bin`
 
 Now enter `lvim`to open lunarVim
 
-<img src="./images/lunarVim-react.png" width="50%"/>
-<img src="./images/lunarVim-terminal.png" width="50%"/>
-<img src="./images/lunarVim-telescope.png" width="50%"/>
-<img src="./images/lunarVim-terminal.png" width="50%"/>
-<img src="./images/lunarVim-split-window.png" width="50%"/>
-<img src="./images/lunarVim-file-explorer.png" width="50%"/>
+<img src="./images/lunarVim-react.png" width="70%"/>
+<img src="./images/lunarVim-terminal.png" width="70%"/>
+<img src="./images/lunarVim-telescope.png" width="70%"/>
+<img src="./images/lunarVim-terminal.png" width="70%"/>
+<img src="./images/lunarVim-split-window.png" width="70%"/>
+<img src="./images/lunarVim-file-explorer.png" width="70%"/>
 
 <br />
 

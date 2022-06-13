@@ -100,8 +100,6 @@ Go to `Settings` and search `terminal font` and change the value to `MesloLGS NF
 
 <img src=".images/../images/vscode-terminal-font.png" width="60%"/>
 
-
-
 # Hyper
 
 <img src="./images/hyper.png"/>
@@ -186,16 +184,39 @@ Go to this [link](https://github.com/bnb/awesome-hyper.git) to see and install s
 brew install neovim
 ```
 
-# 
+To config Neovim you have to go to `~/.config/nvim` on MacOS
+
+## LunarVim
+
+For several months I used a Neovim config that I had created especially for web and mobile development. I recently switched to LunarVim which allows me to have additional features and better rendering
+
+## Prerequisites
+
+- ### Install lua
+
+```
+brew install lua
+```
+
+- ### Install cargo
+
+```
+curl https://sh.rustup.rs -sSf | sh
+```
+
+## Installation (MacOS)
+
+```
+bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+```
 
 ## Author
 
 👤 **Enzo Mourany**
 
-* Website: enzomourany.com
-* Github: [@enzo-mourany](https://github.com/enzo-mourany)
+- Website: enzomourany.com
+- Github: [@enzo-mourany](https://github.com/enzo-mourany)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-

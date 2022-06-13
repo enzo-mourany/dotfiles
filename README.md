@@ -1,6 +1,6 @@
-<h1 align="center">Enzo Mourany's Dotfiles</h1>
-<p>
-</p>
+<h1 align="center">
+<img src="./header.svg">
+</h1>
 
 [Shell](#shell-setup)
 

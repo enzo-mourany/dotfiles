@@ -188,6 +188,10 @@ To config Neovim you have to go to `~/.config/nvim` on MacOS
 
 ## LunarVim
 
+<img src="./images/lunarVim.png" width="60%"/>
+
+<br />
+
 For several months I used a Neovim config that I had created especially for web and mobile development. I recently switched to LunarVim which allows me to have additional features and better rendering
 
 ## Prerequisites

@@ -10,6 +10,8 @@
 
 [Nvim](#nvim)
 
+[LunarVim](#lunarvim)
+
 <br />
 
 # Shell setup
@@ -213,6 +215,21 @@ curl https://sh.rustup.rs -sSf | sh
 ```
 bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 ```
+
+To config Neovim you have to go to `~/.config/lvim` on MacOS
+
+Edit `.zshrc` and add `PATH=$PATH:~/.local/bin`
+
+Now enter `lvim`to open lunarVim
+
+<img src="./images/lunarVim-react.png" width="50%"/>
+<img src="./images/lunarVim-terminal.png" width="50%"/>
+<img src="./images/lunarVim-telescope.png" width="50%"/>
+<img src="./images/lunarVim-terminal.png" width="50%"/>
+<img src="./images/lunarVim-split-window.png" width="50%"/>
+<img src="./images/lunarVim-file-explorer.png" width="50%"/>
+
+<br />
 
 ## Author
 

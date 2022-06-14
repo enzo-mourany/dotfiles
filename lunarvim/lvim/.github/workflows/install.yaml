@@ -1,0 +1,66 @@
+name: install
+
+on:
+  pull_request:
+    branches:
+      - "master"
+      - "rolling"
+    paths:
+      - 'lua/**'
+      - 'snapshots/**'
+      - 'tests/**'
+      - 'utils/**'
+
+jobs:
+  unixish:
+    name: ${{ matrix.os }} ${{ matrix.runner }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - runner: ubuntu-20.04
+            os: linux
+          - runner: macos-10.15
+            os: osx
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install neovim binary
+        run: |
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+          bash ./utils/installer/install-neovim-from-release
+
+      - name: Install LunarVim
+        timeout-minutes: 4
+        run: |
+          ./utils/installer/install.sh --local --no-install-dependencies
+
+      - name: Run unit-tests
+        # NOTE: make sure to adjust the timeout if you start adding a lot of tests
+        timeout-minutes: 4
+        run: make test
+
+  windows:
+    name: "windows-latest"
+    runs-on: windows-latest
+    if: github.event.pull_request.draft == false
+    continue-on-error: true # windows support is still experimental
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      # it's not currently possbile to run tests on windows, see nvim-lua/plenary.nvim#255
+      - uses: actions/checkout@v2
+
+      - name: Install neovim binary
+        uses: rhysd/action-setup-vim@v1
+        with:
+          neovim: true
+          version: v0.7.0
+
+      - name: Install LunarVim
+        timeout-minutes: 4
+        run: |
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+          pwsh.exe -NoLogo -ExecutionPolicy Bypass -NonInteractive -Command "./utils/installer/install.ps1 --local"

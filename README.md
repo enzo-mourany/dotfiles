@@ -14,6 +14,10 @@
 
 <br />
 
+<img src="./images/lunarVim-file-explorer.png" width="100%"/>
+
+<br />
+
 # Shell setup
 
 ## Install brew (macos)
@@ -104,9 +108,9 @@ Go to `Settings` and search `terminal font` and change the value to `MesloLGS NF
 
 # Hyper
 
-<img src="./images/hyper.png"/>
+<img src="./images/hyper.png" width="100%"/>
 
-<img src="./images/hyper-fig.png"/>
+<img src="./images/hyper-fig.png" width="100%"/>
 
 ## Install (brew)
 
@@ -148,6 +152,8 @@ hyper i hyper-night-owl
 
 <img src="./images/fig.png" width="60%"/>
 
+<br/>
+
 ```sh
 brew install --cask fig
 ```
@@ -160,7 +166,9 @@ Restart Hyper
 
 ## Set low opacity
 
-<img src="./images/hyper-low-opacity.png" width="80%"/>
+<img src="./images/hyper-low-opacity.png" width="100%"/>
+
+<br/>
 
 ```sh
 hyper i hyper-opacity
@@ -190,7 +198,7 @@ To config Neovim you have to go to `~/.config/nvim` on MacOS
 
 ## LunarVim
 
-<img src="./images/lunarVim.png" width="70%"/>
+<img src="./images/lunarVim.png" width="100%"/>
 
 <br />
 
@@ -222,12 +230,43 @@ Edit `.zshrc` and add `PATH=$PATH:~/.local/bin`
 
 Now enter `lvim`to open lunarVim
 
-<img src="./images/lunarVim-react.png" width="70%"/>
-<img src="./images/lunarVim-terminal.png" width="70%"/>
-<img src="./images/lunarVim-telescope.png" width="70%"/>
-<img src="./images/lunarVim-terminal.png" width="70%"/>
-<img src="./images/lunarVim-split-window.png" width="70%"/>
-<img src="./images/lunarVim-file-explorer.png" width="70%"/>
+<br/>
+
+- This is the render with javascriptreact file
+
+<img src="./images/lunarVim-react.png" width="100%"/>
+
+<br/>
+
+- To open the integral terminal on your lunarVim window, press `ctrl` + `t`
+
+<img src="./images/lunarVim-terminal.png" width="100%"/>
+
+<br/>
+
+- Lunar Vim uses telescope — a fuzzy file finder and pattern matching machine. Use it to open files by pressing `space` + `f`. You can also open this from the welcome screen
+
+<img src="./images/lunarVim-telescope.png" width="100%"/>
+
+<br/>
+
+- Pressing `g` while in normal mode will open up a different set of options which are incredibly useful. Go to definition, reference, and more!
+
+<img src="./images/lunarVim-command.png" width="100%"/>
+
+<br/>
+
+- To split window vertically, press `escape` and type `:vsplit`
+
+- To split window horizontally, type `:split`
+
+<img src="./images/lunarVim-split-window.png" width="100%"/>
+
+<br/>
+
+- You can display the file explorer by typing `space` + `e`
+
+<img src="./images/lunarVim-file-explorer.png" width="100%"/>
 
 <br />
 

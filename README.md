@@ -216,7 +216,7 @@ curl https://sh.rustup.rs -sSf | sh
 bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 ```
 
-To config Neovim you have to go to `~/.config/lvim` on MacOS
+To config Neovim you have to go to `~/.config/lvim` and `~/.local/share/lunarvim` on MacOS
 
 Edit `.zshrc` and add `PATH=$PATH:~/.local/bin`
 

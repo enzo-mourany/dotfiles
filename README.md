@@ -2,15 +2,15 @@
 <img src="./header.svg">
 </h1>
 
-[Shell](#shell-setup)
+* [Shell](#shell-setup)
 
-[VSCode Terminal](#vscode-terminal)
+* [VSCode Terminal](#vscode-terminal)
 
-[Hyper](#hyper)
+* [Hyper](#hyper)
 
-[Nvim](#nvim)
+* [Nvim](#nvim)
 
-[LunarVim](#lunarvim)
+* [LunarVim](#lunarvim)
 
 <br />
 

@@ -52,7 +52,7 @@ brew install --cask iterm2
 
 To get this render
 
-<img src="./images/oh-my-zsh.png" width="60%"/>
+<img src="./images/oh-my-zsh.png" width="70%"/>
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -108,9 +108,9 @@ Go to `Settings` and search `terminal font` and change the value to `MesloLGS NF
 
 # Hyper
 
-<img src="./images/hyper.png" width="100%"/>
+- Hyper is a simple to use and efficient terminal coded in javascript. It's easy to configure it to make it use for any use
 
-<img src="./images/hyper-fig.png" width="100%"/>
+<img src="./images/hyper.png" width="100%"/>
 
 ## Install (brew)
 
@@ -136,7 +136,7 @@ or
 vim ~/.hyper.js
 ```
 
-Use this parameter
+Change the value of `fontFamily`
 
 <img src="./images/hyper-font-family.png" width="60%"/>
 
@@ -174,11 +174,7 @@ Restart Hyper
 hyper i hyper-opacity
 ```
 
-Change opacity in .hyper.js
-
-<img src="./images/opacity.png" width="60%"/>
-
-<br/>
+Change the value of `opacity` which is default **1** to **0.85** for example
 
 ## Install Plugins
 

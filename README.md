@@ -52,7 +52,7 @@ brew install --cask iterm2
 
 To get this render
 
-<img src="./images/oh-my-zsh.png" width="70%"/>
+<img src="./images/oh-my-zsh.png" width="70%" />
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

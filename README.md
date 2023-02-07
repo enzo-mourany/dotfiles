@@ -133,7 +133,15 @@ source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 
 
-# VSCode Terminal
+# VSCode
+
+## Install VSCode
+
+```sh
+brew install --cask visual-studio-code
+```
+
+## Setup VSCode Terminal
 
 After configuring oh-my-zsh, VSCode's terminal does not support powerlevel10k icons. So you have to go to vscode settings
 

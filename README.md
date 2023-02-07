@@ -1,24 +1,22 @@
+<div align="center">
+
+  [![Contributors][contributors-shield]][contributors-url]
+  [![Forks][forks-shield]][forks-url]
+  [![Stargazers][stars-shield]][stars-url]
+  [![Issues][issues-shield]][issues-url]
+
+</div>
+
 <h1 align="center">
 <img src="./header.svg">
 </h1>
 
-* [Shell](#shell-setup)
-
-* [VSCode Terminal](#vscode-terminal)
-
-* [Hyper](#hyper)
-
-* [Nvim](#nvim)
-
-* [LunarVim](#lunarvim)
-
-<br />
 
 <img src="./images/lunarVim-file-explorer.png" width="100%"/>
 
 <br />
 
-# Shell setup
+# Getting Started
 
 ## Install brew (macos)
 
@@ -26,18 +24,6 @@
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-## Install fish
-
-```sh
-brew install fish
-```
-
-## Install fisher
-
-```sh
-brew install fisher
 ```
 
 ## Install iTerm
@@ -97,6 +83,7 @@ Enable the syntax highlighting :
 ```sh
 source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
+
 
 # VSCode Terminal
 
@@ -181,6 +168,7 @@ Change the value of `opacity` which is default **1** to **0.85** for example
 Go to this [link](https://github.com/bnb/awesome-hyper.git) to see and install some plugins
 
 <br />
+
 
 # NeoVim
 
@@ -276,3 +264,17 @@ Now enter `lvim`to open lunarVim
 ## Show your support
 
 Give a ⭐️ if this project helped you!
+
+
+
+
+
+[contributors-shield]: https://img.shields.io/github/contributors/enzo-mourany/dotfiles.svg?style=for-the-badge
+[contributors-url]: https://github.com/enzo-mourany/dotfiles/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/enzo-mourany/dotfiles.svg?style=for-the-badge
+[forks-url]: https://github.com/enzo-mourany/dotfiles/network/members
+[stars-shield]: https://img.shields.io/github/stars/enzo-mourany/dotfiles.svg?style=for-the-badge
+[stars-url]: https://github.com/enzo-mourany/dotfiles/stargazers
+[issues-shield]: https://img.shields.io/github/issues/enzo-mourany/dotfiles.svg?style=for-the-badge
+[issues-url]: https://github.com/enzo-mourany/dotfiles/issues
+

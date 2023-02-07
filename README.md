@@ -149,6 +149,30 @@ Go to `Settings` and search `terminal font` and change the value to `MesloLGS NF
 
 <img src=".images/../images/vscode-terminal-font.png" width="60%"/>
 
+## Setup VSCode Settings
+
+Go to `Settings` and search `settings.json`. Then copy the content of `vscode-settings.json` to your `settings.json`
+
+```json
+{
+  "workbench.colorTheme": "Palenight Theme",
+  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+  "editor.suggestSelection": "first",
+  "editor.wordWrap": "on",
+  "files.exclude": {
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.classpath": true,
+    "**/.factorypath": true
+  },
+
+  ... // go check vscode/settings.json
+
+}
+```
+
+<a href="https://github.com/enzo-mourany/dotfiles/vscode/settings.json">settings.json</a>
+
 # Hyper
 
 - Hyper is a simple to use and efficient terminal coded in javascript. It's easy to configure it to make it use for any use

@@ -1,0 +1,197 @@
+{
+  "workbench.colorTheme": "Palenight Theme",
+  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+  "editor.suggestSelection": "first",
+  "editor.wordWrap": "on",
+  "files.exclude": {
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.classpath": true,
+    "**/.factorypath": true
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "react-native-tools.showUserTips": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.smoothScrolling": true,
+  "workbench.productIconTheme": "developer-icons",
+  "editor.accessibilitySupport": "off",
+  "redhat.telemetry.enabled": true,
+  "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3",
+  "workbench.preferredDarkColorTheme": "Palenight Theme",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "bracketPairColorizer.depreciation-notice": false,
+  "editor.lineNumbers": "relative",
+  "workbench.list.smoothScrolling": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.cursorBlinking": "phase",
+  "sonarlint.rules": {
+    "typescript:S1117": {
+      "level": "off"
+    },
+    "javascript:S4144": {
+      "level": "off"
+    },
+    "javascript:S125": {
+      "level": "off"
+    },
+    "javascript:S3358": {
+      "level": "off"
+    },
+    "javascript:S3317": {
+      "level": "off"
+    },
+    "python:S2208": {
+      "level": "off"
+    },
+    "javascript:S905": {
+      "level": "off"
+    },
+    "python:S5607": {
+      "level": "off"
+    },
+    "python:S905": {
+      "level": "off"
+    },
+    "python:S1192": {
+      "level": "off"
+    },
+    "typescript:S1135": {
+      "level": "off"
+    },
+    "typescript:S3776": {
+      "level": "off"
+    }
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook",
+    "*.db": "default"
+  },
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "tabnine.experimentalAutoImports": true,
+  "workbench.preferredHighContrastColorTheme": "Palenight (Mild Contrast)",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontWeightBold": "normal",
+  "bracketPairColorizer.excludedLanguages": [],
+  "colorize.languages": [
+    "typescript",
+    "typescriptreact",
+    "javascript",
+    "javascriptreact",
+    "css",
+    "scss",
+    "json",
+    "python",
+    "python3",
+    "dart",
+    "html",
+    "markdown",
+    "yaml",
+    "shellscript",
+    "bash",
+    "sh",
+    "zsh",
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.printWidth": 70,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.jsx": "javascriptreact",
+    "*.ts": "typescriptreact",
+    "*.tsx": "typescriptreact",
+  },
+  "colorize.colorized_colors": [
+    "BROWSERS_COLORS",
+    "HEXA",
+    "RGB",
+    "HSL"
+  ],
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.size": "fit",
+  "editor.overviewRulerBorder": false,
+  "editor.minimap.maxColumn": 40,
+  "editor.minimap.enabled": false,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "npm.keybindingsChangedWarningShown": true,
+  "cSpell.userWords": ["eratosthene", "matplotlib", "pyplot"],
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.advanced": {},
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": true
+  },
+  "jupyter.askForKernelRestart": false,
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "workbench.startupEditor": "none",
+  "workbench.tree.indent": 14,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#fff",
+    "terminalCursor.foreground": "#fff"
+  },
+  "material-icon-theme.activeIconPack": "react",
+  "editor.indentSize": "tabSize",
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "typescript": "tsx"
+  },
+  "git.confirmSync": false,
+  "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+  "editor.letterSpacing": 0.3,
+  "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "[Palenight Theme]": {
+      "textMateRules": [
+        {
+          "scope": "entity.name.function",
+          "settings": {
+            "fontStyle": "bold"
+          },
+        }
+      ],
+    }
+  },
+  "gitlens.currentLine.enabled": false,
+  "gitlens.views.repositories.files.layout": "tree",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "multiCommand.commands": [
+    {
+      "command": "multiCommand.makeRoom",
+      "sequence": [
+        "workbench.action.toggleSidebarVisibility",
+        "workbench.action.toggleActivityBarVisibility",
+      ]
+    }
+  ],
+  "css.lint.unknownAtRules": "ignore",
+  "editor.tabSize": 2,
+}

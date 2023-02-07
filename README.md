@@ -12,9 +12,57 @@
 </h1>
 
 
-<img src="./images/lunarVim-file-explorer.png" width="100%"/>
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Homebrew</a></li>
+        <li><a href="#installation">iTerm</a></li>
+        <li><a href="#installation">oh-my-zsh</a></li>
+        <li><a href="#installation">powerlevel10k</a></li>
+        <li><a href="#installation">Plugins</a></li>
+        <ul>
+          <li><a href="#installation">Syntax Highlighting</a></li>
+        </ul>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+
+<!-- ABOUT THE PROJECT -->
+## About
+
+<img src="./images/main.png" width="100%"/>
+
+My personal configuration for my terminal, vim, vscode, etc... to be more productive
 
 <br />
+
+
+### Built With
+
+* [![Shell][Shell]][Shell-url]
+* [![Lua][Lua]][Lua-url]
+* [![Vim][Vim]][Vim-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 # Getting Started
 
@@ -278,3 +326,11 @@ Give a ⭐️ if this project helped you!
 [issues-shield]: https://img.shields.io/github/issues/enzo-mourany/dotfiles.svg?style=for-the-badge
 [issues-url]: https://github.com/enzo-mourany/dotfiles/issues
 
+
+<!-- Build With URLs -->
+[Shell]: https://img.shields.io/badge/Shell-010080?style=for-the-badge&logo=shell&logoColor=white
+[Shell-url]: https://www.shell.com/
+[Lua]: https://img.shields.io/badge/Lua-000000?style=for-the-badge&logo=lua&logoColor=white
+[Lua-url]: https://www.lua.org/
+[Vim]: https://img.shields.io/badge/Vim-049733?style=for-the-badge&logo=vim&logoColor=white
+[Vim-url]: https://www.vim.org/

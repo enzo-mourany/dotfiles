@@ -7,8 +7,9 @@
 
 </div>
 
+
 <h1 align="center">
-<img src="./header.svg">
+  <img src="./header.svg">
 </h1>
 
 
@@ -54,11 +55,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -86,19 +83,19 @@ My personal configuration for my terminal, vim, vscode, etc... to be more produc
 
 ## Prerequisites
 
-- ### Install lua
+### Install lua
 
 ```
 brew install lua
 ```
 
-- ### Install cargo
+### Install cargo
 
 ```
 curl https://sh.rustup.rs -sSf | sh
 ```
 
-## Install brew (macos)
+## Install Homebrew (macos)
 
 [Brew](https://brew.sh/index_fr) is a package manager for macos
 
@@ -177,7 +174,7 @@ brew install --cask visual-studio-code
 
 ## Setup VSCode Terminal
 
-After configuring oh-my-zsh, VSCode's terminal does not support powerlevel10k icons. So you have to go to vscode settings
+After configuring oh-my-zsh, VSCode's terminal does not support powerlevel10k icons. So you have to go to vscode settings.json
 
 Go to `Settings` and search `terminal font` and change the value to `MesloLGS NF`
 
@@ -211,17 +208,17 @@ Go to `Settings` and search `settings.json`. Then copy the content of `vscode-se
 
 # Hyper
 
-- Hyper is a simple to use and efficient terminal coded in javascript. It's easy to configure it to make it use for any use
+Hyper is a simple to use and efficient terminal coded in javascript. It's easy to configure it to make it use for any use
 
 <img src="./images/hyper.png" width="100%"/>
 
-## Install (brew)
+## Installation (with brew)
 
 ```sh
 brew install --cask hyper
 ```
 
-## Install Hyper Command (zsh)
+## Install Hyper Command
 
 ```sh
 sudo ln -s &#34;/Applications/Hyper.app/Contents/Resources/bin/hyper&#34; /usr/local/bin/hyper

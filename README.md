@@ -25,14 +25,32 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Homebrew</a></li>
-        <li><a href="#installation">iTerm</a></li>
-        <li><a href="#installation">oh-my-zsh</a></li>
-        <li><a href="#installation">powerlevel10k</a></li>
-        <li><a href="#installation">Plugins</a></li>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#install-brew">Homebrew</a></li>
+        <li><a href="#install-iterm">iTerm</a></li>
+        <li><a href="#install-oh-my-zsh">oh-my-zsh</a></li>
+        <li><a href="#install-powerlevel10k">powerlevel10k</a></li>
+        <li><a href="#install-plugins">Plugins</a></li>
         <ul>
-          <li><a href="#installation">Syntax Highlighting</a></li>
+          <li><a href="#syntax-highlighting">Syntax Highlighting</a></li>
         </ul>
+        <li><a href="#vscode">VSCode</li>
+        <ul>
+          <li><a href="#installation">Installation</a></li>
+          <li><a href="#setup-vscode-terminal">Setup VSCode Terminal</a></li>
+          <li><a href="#setup-vscode-settings">Setup VSCode Settings</a></li>
+        </ul>
+        <li><a href="#hyper">Hyper</a></li>
+        <ul>
+          <li><a href="#installation">Installation</a></li>
+          <li><a href="#setup-hyper-terminal">Setup Hyper Terminal</a></li>
+          <li><a href="#setup-hyper-settings">Setup Hyper Settings</a></li>
+        </ul>
+        <li><a href="#neovim">NeoVim</a></li>
+        <ul>
+          <li><a href="#installation">Installation</a></li>
+        </ul>
+        <li><a href="#lunarvim">LunarVim</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -61,10 +79,24 @@ My personal configuration for my terminal, vim, vscode, etc... to be more produc
 * [![Lua][Lua]][Lua-url]
 * [![Vim][Vim]][Vim-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 
 # Getting Started
+
+## Prerequisites
+
+- ### Install lua
+
+```
+brew install lua
+```
+
+- ### Install cargo
+
+```
+curl https://sh.rustup.rs -sSf | sh
+```
 
 ## Install brew (macos)
 
@@ -132,10 +164,12 @@ Enable the syntax highlighting :
 source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 
+<p align="right"><a href="#readme-top">back to top</a></p>
+
 
 # VSCode
 
-## Install VSCode
+## Installation
 
 ```sh
 brew install --cask visual-studio-code
@@ -171,7 +205,9 @@ Go to `Settings` and search `settings.json`. Then copy the content of `vscode-se
 }
 ```
 
-<a href="https://github.com/enzo-mourany/dotfiles/vscode/settings.json">settings.json</a>
+<a href="https://github.com/enzo-mourany/dotfiles/blob/main/vscode/settings.json">settings.json</a>
+
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 # Hyper
 
@@ -268,19 +304,6 @@ To config Neovim you have to go to `~/.config/nvim` on MacOS
 
 For several months I used a Neovim config that I had created especially for web and mobile development. I recently switched to LunarVim which allows me to have additional features and better rendering
 
-## Prerequisites
-
-- ### Install lua
-
-```
-brew install lua
-```
-
-- ### Install cargo
-
-```
-curl https://sh.rustup.rs -sSf | sh
-```
 
 ## Installation (MacOS)
 
